@@ -20,7 +20,7 @@ guessnum() {
                 break;
                 fi
             else
-                echo "Wrong input passed. Please pass integers only"
+                echo "Wrong input passed.Please pass integers only"
         fi
     done
 }
