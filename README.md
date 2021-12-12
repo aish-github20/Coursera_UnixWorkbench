@@ -1,2 +1,2 @@
 # Coursera_UnixWorkbench
-Script guessinggame contains 27 lines
+This guessinggame script contains 27 lines
