@@ -9,18 +9,18 @@ guessnum() {
             then
                 if [ $number_guessed -lt $right_answer ]
                 then
-                    echo "Try Again!.....Your guess is less than the actual number"
+                    echo "Try Again!Guess is less than the actual number"
                 continue;
                 elif [ $number_guessed -gt $right_answer ]
                 then
-                    echo "Try Again!....Your guess is greater than the actual number"
+                    echo "Try Again!Guess is greater than the actual number"
                 continue;
                 else
-                    echo "Congratulations!........Your guess is right!"
+                    echo "Congratulations! Guess is right!"
                 break;
                 fi
             else
-                echo "Wrong input passed.Please pass integers only"
+                echo "Wrong input.Please pass integers only"
         fi
     done
 }
